@@ -4,6 +4,8 @@ describe('Home page tests', function () {
     beforeEach(() => {
         browser.url('./');
         expect(HomePage.title).to.equal('Coya: Vergiss Papierkram – werde Teil einer neuen Versicherung!')
+        HomePage.coockieConsent.click();
+
     })
 
     afterEach(() => {
