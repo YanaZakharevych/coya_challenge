@@ -12,7 +12,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './tests/**/*.js'
+        //C:\Users\yana.zakharevych\Desktop\Coya_challenge\tests\InsurancePage_tests.jsC:\Users\yana.zakharevych\Desktop\Coya_challenge\tests\coyaCarePage_tests.js
+        './tests/**/coyaCarePage_tests.js'
     ],
     // Patterns to exclude.
     exclude: [

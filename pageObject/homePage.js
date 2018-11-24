@@ -1,4 +1,8 @@
 class HomePage {
+    get coockieConsent() {
+        return $('#consest-popup .cta-button.bg-blue')
+    }
+
     get title() {
         return browser.getTitle()
     }
