@@ -1,0 +1,26 @@
+{
+  "name": "coya-challenge",
+  "version": "1.0.0",
+  "description": "tests for coya",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.15.4",
+    "wdio-mocha-framework": "^0.6.4",
+    "webdriverio": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "wdio-selenium-standalone-service": "0.0.11"
+  },
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "Yana Zakharevych",
+  "license": "ISC"
+}
